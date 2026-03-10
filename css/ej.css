@@ -1,0 +1,122 @@
+#app {
+  display: grid;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+}
+
+#app label {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  max-width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ul{
+  margin-top: 0px;
+}
+
+h3,
+#textInput,
+#addTask,
+#add{
+  margin-bottom: 10px;
+}
+
+#n1,
+#n2,
+#result label {
+  margin-right: 30px;
+}
+
+#buttonBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#inputResult {
+  text-align: right;
+}
+
+#contador,
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#contador *{
+  align-content: center;
+}
+
+#buttonContainer * {
+  width: 70px;
+}
+
+#length{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+
+#length::placeholder {
+  text-align: left;
+}
+
+#generate {
+  margin: 30px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+#pass {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+#pass p{
+  justify-content: center;
+  text-align: center;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+legend {
+  color: #41ae45;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#counter li *{
+  display: inline;
+}
+
+ul#tasks {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add,
+#clean {
+  justify-self: center;
+  width: 100px;
+}
