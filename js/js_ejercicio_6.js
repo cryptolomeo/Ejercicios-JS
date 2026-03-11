@@ -76,9 +76,6 @@ function incrementarSegundo() {
 const normalizarDigitos = (valor) => String(valor).padStart(2, '0');
 // const normalizarDigitos = (valor) => ("0"+valor).slice(-2); // Otra opcion
 
-
-
-
 // Evento Inicio
 inicio.addEventListener('click', () => {
   inicio.disabled = true;
