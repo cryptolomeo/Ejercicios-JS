@@ -23,7 +23,6 @@ function crearLista(arr) {
     title.insertAdjacentElement('afterend', ul);
   }
   else {
-    debugger;
     const sinElementos = document.createElement('li');
     sinElementos.textContent = 'No existen elementos con ese filtro'
     ul.appendChild(sinElementos);

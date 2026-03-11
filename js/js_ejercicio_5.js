@@ -52,7 +52,6 @@ app.appendChild(res);
 spanBotones.addEventListener('click', (event) => {
   if (n1.value!=='' && n2.value!=='') { //validar que los input tengan numero
     let resultadoOperacion = 0;
-    debugger;
     switch (event.target.textContent) {
       case '+':
         resultadoOperacion = parseFloat(n1.value) + parseFloat(n2.value);
